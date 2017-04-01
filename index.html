@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Weather Report</title>
+    <!-- <link rel="shortcut icon" type="image/png" href="/favicon.png"/> -->
+  </head>
+  <body> 
+    <!-- <script src="jquery-3.2.0.min.js"></script> -->
+    
+    <div class="col-lg-4">
+      <div class="input-group input-group-lg"> <input class="form-control" id="city"
+          placeholder="Search City/Zip" type="text"> <span class="input-group-btn">
+          <button class="btn btn-default" type="button" id="goButton" onclick="getWeather();">Go!</button>
+        </span> </div>
+      <br>
+      <h2 class="text-center"><span class="c_city">City</span>, <span class="c_country">US</span></h2>
+      <h1 class="text-center"><span class="c_temp"></span></h1>
+      <h3 class="text-center"><img class="c_icon" src=""><span class="c_condition"></span></h3>
+      <table class="table">
+      	<tr>
+      		<td class="f_time">time</td>
+      		<td class="f_temp">60.0F</td>
+      		<td class="f_weather">Clear</td>
+      	</tr>
+      	<tr>
+      		<td class="f_time">time</td>
+      		<td class="f_temp">60.0F</td>
+      		<td class="f_weather">Clear</td>
+      	</tr>
+      	<tr>
+      		<td class="f_time">time</td>
+      		<td class="f_temp">60.0F</td>
+      		<td class="f_weather">Clear</td>
+      	</tr>
+      </table>
+    </div>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+      integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+      crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+crossorigin="anonymous"></script> -->
+    <script type="text/javascript" src="weather.js"></script>
+  </body>
+</html>
